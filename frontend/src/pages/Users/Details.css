@@ -1,0 +1,83 @@
+.user-wrapper {
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-wrapper .profile-picture{
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0px auto;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-wrapper .profile-picture img{
+    display: block;
+}
+
+.user-wrapper h1{
+    text-align: center;
+}
+
+.btnBack { 
+    color: #ffffff; 
+    background-color: #3E3945; 
+    border-color: #030303; 
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 50px;
+    width: 50%;
+  } 
+   
+  .btnBack:hover, 
+  .btnBack:focus, 
+  .btnBack:active, 
+  .btnBack.active { 
+    color: #ffffff; 
+    background-color: #411f9e; 
+    border-color: #030303; 
+  }
+
+  .table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .user-wrapper {
+      width: 100%;   
+      align-items: center;                
+    }
+
+    .user-wrapper .profile-picture{
+        justify-content: left;
+        align-items: center;
+        margin: 0;
+    }
+  }

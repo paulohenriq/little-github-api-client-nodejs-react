@@ -1,0 +1,41 @@
+.user-wrapper ul {
+    list-style: none;
+    color: #1c2022;
+    width: 50%;
+    margin: 40px auto;
+    padding-left: 0px !important;
+}
+
+.user-wrapper ul li{    
+    padding: 20px 20px 0;
+    margin: 20px 0 0;
+    border-top: 1px solid #eee;
+}
+
+.user-wrapper ul li strong{
+    margin-right: 20px;
+}
+
+.user-wrapper ul li a{
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+.user-wrapper ul li a:hover{
+    color: #411f9e;
+}
+
+.user-wrapper ul li:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .user-wrapper ul{
+        width: 100%;
+        margin: 10px 0px 40px 0px;  
+        justify-content: left;   
+        align-items: left;          
+    }
+  }

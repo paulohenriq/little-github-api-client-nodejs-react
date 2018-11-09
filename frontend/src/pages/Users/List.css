@@ -1,0 +1,66 @@
+.list-users-wrapper {
+  width: 700px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.list-users-wrapper h1{
+  text-align: center;
+}
+
+.list-users {
+  list-style: none;
+  color: #1c2022;
+  margin: 40px auto;  
+  width: 40%;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin: 20px auto;
+  padding-left: 0px;  
+}
+
+.pagination li{
+  margin-right: 10px;
+}
+
+.pagination button {
+  color: #fff;
+  float: left;  
+  transition: background-color .3s;
+  border: 1px solid #030303;  
+  padding: 20px 30px;
+  background-color: #3E3945;
+  font-size: 16px;  
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  color: #fff; 
+  background-color: #411f9e; 
+  border-color: #030303;
+}
+
+@media screen and (max-width: 600px) {
+  .list-users-wrapper {
+    width: 100%;   
+    align-items: center;                
+  }
+
+  .list-users-wrapper img{
+      justify-content: left;
+      align-items: center;
+      margin: 0;
+  }
+
+  .list-users{
+    width: 100%;  
+    margin-top: 40px;          
+  }
+}

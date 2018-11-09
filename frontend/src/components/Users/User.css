@@ -1,0 +1,31 @@
+.user {
+    padding: 20px 20px 0;
+    margin: 20px 0 0;
+    border-top: 1px solid #eee;
+  }
+  
+  .user:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+  }
+
+  .user a{
+      text-decoration: none;
+      color: #3b3b3b;
+  }
+
+  .user a:hover{
+      color: #411f9e;
+  }
+
+  .user span {
+    margin-right: 20px;
+  }
+  
+  .user strong {
+    margin: 15px 0;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: bold;
+  }
