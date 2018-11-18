@@ -1,6 +1,4 @@
-# API Github Client - Shaw and Partners Fullstack Test
-
-This API was developed to solve the test for the Fullstack Developer vacancy at Shaw and Partners.
+# API Github Client
 
 The following technologies were used:
 
